@@ -1,0 +1,85 @@
+/*-------------------------------------------------------------------------------
+GÉNÉRIQUE 
+--------------------------------------------------------------------------------*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/*-------------------------------------------------------------------------------
+ÉLÉMENTS 
+--------------------------------------------------------------------------------*/
+
+/*--Général--*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F0F2F7;
+    color: #12121A;
+}
+
+.wrapper{
+    max-width: 1195px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font: 400 1.125 "Fira Sans", sans-serif;
+    line-height: 28px;
+}
+
+ul{
+    list-style: none;
+}
+
+/*--Header--*/
+
+.header{
+    background-color:#2A1B3D ;
+    color: #F0F2F7;
+
+}
+
+.logo{
+    font: 400 2.25rem "Fira Sans", sans-serif;
+    color: #F0F2F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width:37px;
+
+}
+
+.header .wrapper{
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.menu a{
+    color:#F0F2F7 ;
+
+    font: 400 1.125rem "Fira Sans", sans-serif;
+}

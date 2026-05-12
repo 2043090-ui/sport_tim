@@ -27,6 +27,7 @@ body{
 
 .wrapper{
     max-width: 1195px;
+    margin: 0 auto;
 }
 
 a{
@@ -67,7 +68,7 @@ ul{
     height: 83px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .menu{
@@ -82,4 +83,32 @@ ul{
     color:#F0F2F7 ;
 
     font: 400 1.125rem "Fira Sans", sans-serif;
+}
+
+.menu a:hover{
+    color: #2DFEBC;
+}
+
+/*--Héro--*/
+
+.hero{
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 395px;
+
+}
+
+.contenu_hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #B4B4C0;
+
+    height: 395px;
+
+
+    font: 800 1rem "Montserrat", sans-serif;
+    text-align: center;
 }

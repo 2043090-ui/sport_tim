@@ -44,12 +44,36 @@ ul{
 }
 
 
+/*--Call-to-action--*/
 
+h4{
+    font: 400 1.5rem "Fira Sans", sans-serif;
+}
 
 
 /*-------------------------------------------------------------------------------
 COMPONENTS 
 --------------------------------------------------------------------------------*/
+
+/*--Général--*/
+
+.bouton{
+    background-color: #2DFEBC;
+    color: #12121A;
+    padding: 10px 30px;
+
+    font: 400 1.125rem "Fira Sans", sans-serif;
+
+    border-right: #2DFEBC solid 5px;
+    border-left:#2DFEBC solid 5px ;
+}
+
+.bouton:hover{
+    border: #12121A solid 5px;
+
+    
+    
+}
 
 /*--Header--*/
 
@@ -129,16 +153,19 @@ COMPONENTS
 
 
 
-/*--Héro--*/
+/*--Call-to-action--*/
 
 .call_to_action{
     background-color: #2A1B3D;
     color: #F0F2F7;
+    height: 132px;
 }
 
 .call_to_action .wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 132px;
+
 }
 

@@ -43,6 +43,14 @@ ul{
     list-style: none;
 }
 
+
+
+
+
+/*-------------------------------------------------------------------------------
+COMPONENTS 
+--------------------------------------------------------------------------------*/
+
 /*--Header--*/
 
 .header{
@@ -89,6 +97,11 @@ ul{
     color: #2DFEBC;
 }
 
+
+
+
+
+
 /*--Héro--*/
 
 .hero{
@@ -112,3 +125,20 @@ ul{
     font: 800 1rem "Montserrat", sans-serif;
     text-align: center;
 }
+
+
+
+
+/*--Héro--*/
+
+.call_to_action{
+    background-color: #2A1B3D;
+    color: #F0F2F7;
+}
+
+.call_to_action .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

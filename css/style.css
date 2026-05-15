@@ -3,13 +3,13 @@ GÉNÉRIQUE
 --------------------------------------------------------------------------------*/
 
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 /*-------------------------------------------------------------------------------
@@ -18,47 +18,48 @@ html {
 
 /*--Général--*/
 
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #F0F2F7;
     color: #12121A;
 }
 
-.wrapper{
+.wrapper {
     max-width: 1195px;
     margin: 0 auto;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-p{
-    font: 400 1.125 "Fira Sans", sans-serif;
+p {
+    font: 400 1.125rem "Fira Sans", sans-serif;
     line-height: 28px;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-h1{
+h1 {
     font: 700 2.375rem "Montserrat", sans-serif;
     text-align: center;
 }
 
-h2{
-    font: 700 1.875rem "Montserrat", sans-serif ;
+h2 {
+    font: 700 1.875rem "Montserrat", sans-serif;
     color: #8A235D;
+
 }
 
-h3{
+h3 {
     font: 600 1.5rem "Montserrat", sans-serif;
     color: #8A235D;
 }
 
-h5{
+h5 {
     color: #12121A;
     margin: 0;
     font: 400 1.25rem "Fira Sans", sans-serif;
@@ -69,35 +70,60 @@ h5{
 
 /*--Call-to-action--*/
 
-h4{
+h4 {
     font: 400 1.5rem "Fira Sans", sans-serif;
 }
 
 /*--Section produits--*/
 
-.nav_section a{
+.nav_section a {
     font: 400 1rem "Fira Sans", sans-serif
 }
 
-.produits p{
+.produits p {
     color: #12121A;
     margin: 0;
-    font:400 0.75rem "Fira Sans", sans-serif;
+    font: 400 0.75rem "Fira Sans", sans-serif;
 }
 
-.bouton_produits a{
+.bouton_produits a {
     background-color: transparent;
     border: 1px solid #2A1B3D;
-    font: 400 1.5rem "Fira Sans", sans-serif  ;
+    font: 400 1.5rem "Fira Sans", sans-serif;
     text-transform: uppercase;
-    
+
     padding: 15px 40px;
 }
 
-.bouton_produits a:hover{
+.bouton_produits a:hover {
     border: 1px solid #2A1B3D;
     background-color: #2DFEBC;
     color: #12121A;
+}
+
+
+/*--Section Équipe--*/
+
+.titre_equipe h2,
+.titre_equipe p {
+    text-align: center;
+
+}
+
+.titre_equipe p {
+    width: 820px;
+    margin: auto;
+}
+
+.card_employe p,
+.card_employe h3 {
+    text-align: center;
+    color: #12121A;
+    margin: 0;
+}
+
+.conteu_card_equipe p{
+    color: #454552;
 }
 
 
@@ -107,7 +133,7 @@ COMPONENTS
 
 /*--Général--*/
 
-.bouton{
+.bouton {
     background-color: #2DFEBC;
     color: #12121A;
     padding: 10px 30px;
@@ -117,22 +143,22 @@ COMPONENTS
     border: transparent solid 5px;
 }
 
-.bouton:hover{
+.bouton:hover {
     border: #12121A solid 5px;
 
-    
-    
+
+
 }
 
 /*--Header--*/
 
-.header{
-    background-color:#2A1B3D ;
+.header {
+    background-color: #2A1B3D;
     color: #F0F2F7;
 
 }
 
-.logo{
+.logo {
     font: 400 2.25rem "Fira Sans", sans-serif;
     color: #F0F2F7;
     display: flex;
@@ -140,19 +166,19 @@ COMPONENTS
     justify-content: center;
 }
 
-.logo img{
-    width:37px;
+.logo img {
+    width: 37px;
 
 }
 
-.header .wrapper{
+.header .wrapper {
     height: 83px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -160,13 +186,13 @@ COMPONENTS
 
 }
 
-.menu a{
-    color:#F0F2F7 ;
+.menu a {
+    color: #F0F2F7;
 
     font: 400 1.125rem "Fira Sans", sans-serif;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: #2DFEBC;
 }
 
@@ -177,7 +203,7 @@ COMPONENTS
 
 /*--Héro--*/
 
-.hero{
+.hero {
     background-image: url(../images/hero.jpg);
     background-size: cover;
     background-position: center;
@@ -202,13 +228,13 @@ COMPONENTS
 
 /*--Call-to-action--*/
 
-.call_to_action{
+.call_to_action {
     background-color: #2A1B3D;
     color: #F0F2F7;
     height: 132px;
 }
 
-.call_to_action .wrapper{
+.call_to_action .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -218,11 +244,11 @@ COMPONENTS
 
 /*--Section produits--*/
 
-.produits{
+.produits {
     margin: 45px auto;
 }
 
-.nav_section{
+.nav_section {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -230,54 +256,50 @@ COMPONENTS
     gap: 10px;
 }
 
-.conteneur_vetements {
+.conteneur_vetements,
+.conteneur_velo {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 13px;
 }
 
-.conteneur_velo{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 13px;
-}
 
-.card{
+.card {
     position: relative;
     border: 3px solid #B4B4C0;
-    width: 290.24px;  
+    width: 290.24px;
     height: 215px;
     overflow: hidden;
 }
 
-.card img{
+.card img {
     width: 100%;
     height: auto;
 }
 
-.article_hover{
+.article_hover {
 
     display: none;
 
-    position: absolute  ;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 
-    background-color:  rgba(149, 149, 149, 0.8);
+    background-color: rgba(149, 149, 149, 0.8);
 
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    
+
 }
 
-.card:hover .article_hover{
+.card:hover .article_hover {
     display: flex;
 }
 
-.bas_gris{
+.bas_gris {
     margin: 0;
     background-color: #D7D7E8;
     width: 100%;
@@ -285,8 +307,49 @@ COMPONENTS
     text-align: center;
 }
 
-.bouton_produits{
+.bouton_produits {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/*--Section Équipe--*/
+
+.equipe {
+    margin: 100px auto;
+}
+
+.titre_equipe .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.titre_equipe {
+    margin: 30px auto;
+}
+
+.conteneur_equipe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 19px;
+}
+
+.card_employe img {
+    width: 385px;
+    height: 385px;
+        border: 3px solid #B4B4C0;
+
+}
+
+.card_employe img:hover{
+    border: 10px solid #B4B4C0;
+
+}
+
+.conteu_card_employe {
+    margin-top: 50px;
 }

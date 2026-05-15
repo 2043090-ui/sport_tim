@@ -122,19 +122,27 @@ h4 {
     margin: 0;
 }
 
-.conteu_card_equipe p{
+.conteu_card_equipe p {
     color: #454552;
 }
 
 /*--Section Contact--*/
 
-.contenu_contact p{
+.contenu_contact p {
     text-align: center;
 }
 
-.contenu_contact p, .contenu_contact h2{
+.contenu_contact p,
+.contenu_contact h2 {
     margin: 0;
 }
+
+/*--footer--*/
+
+.footer p{
+    font: 400 0.75rem "Fira Sans", sans-serif;
+}
+
 
 /*-------------------------------------------------------------------------------
 COMPONENTS 
@@ -350,11 +358,11 @@ COMPONENTS
 .card_employe img {
     width: 385px;
     height: 385px;
-        border: 3px solid #B4B4C0;
+    border: 3px solid #B4B4C0;
 
 }
 
-.card_employe img:hover{
+.card_employe img:hover {
     border: 10px solid #B4B4C0;
 
 }
@@ -366,13 +374,13 @@ COMPONENTS
 
 /*--Section Contact--*/
 
-.contact{
+.contact {
     background-color: #B4B4C0;
     height: 913px;
     padding: 45px 0;
 }
 
-.contenu_contact{
+.contenu_contact {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -380,7 +388,7 @@ COMPONENTS
     gap: 30px;
 }
 
-.contact_background{
+.contact_background {
     background-image: url(../images/carte.jpg);
     background-size: cover;
     height: 508px;
@@ -389,3 +397,62 @@ COMPONENTS
 }
 
 
+/*--footer--*/
+
+.footer {
+    background-color: #2A1B3D;
+    color: #F0F2F7;
+    height: 167px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.media_sociaux {
+    display: flex;
+    align-items: center;
+    gap: 95px;
+
+    padding: 0;
+
+}
+
+.ms_arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.material-symbols-outlined{
+    border: #F0F2F7 solid 3px;
+    border-radius: 100%;
+
+    color: #F0F2F7;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 42px;
+    width: 43px;
+
+}
+
+.media_sociaux a:hover img{
+    opacity: 0.7;
+}
+
+ a:hover .material-symbols-outlined{
+    color: #2DFEBC;
+    border-color: #2DFEBC;
+}

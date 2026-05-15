@@ -43,18 +43,30 @@ ul{
     list-style: none;
 }
 
+h1{
+    font: 700 2.375rem "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h2{
+    font: 700 1.875rem "Montserrat", sans-serif ;
+    color: #8A235D;
+}
+
+h3{
+    font: 600 1.5rem "Montserrat", sans-serif;
+    color: #8A235D;
+}
+
 h5{
     color: #12121A;
     margin: 0;
     font: 400 1.25rem "Fira Sans", sans-serif;
-
 }
 
-.produits p{
-    color: #12121A;
-    margin: 0;
-    font-size:400 0.75rem "Fira Sans", sans-serif;
-}
+
+
+
 /*--Call-to-action--*/
 
 h4{
@@ -63,8 +75,30 @@ h4{
 
 /*--Section produits--*/
 
+.nav_section a{
+    font: 400 1rem "Fira Sans", sans-serif
+}
 
+.produits p{
+    color: #12121A;
+    margin: 0;
+    font:400 0.75rem "Fira Sans", sans-serif;
+}
 
+.bouton_produits a{
+    background-color: transparent;
+    border: 1px solid #2A1B3D;
+    font: 400 1.5rem "Fira Sans", sans-serif  ;
+    text-transform: uppercase;
+    
+    padding: 15px 40px;
+}
+
+.bouton_produits a:hover{
+    border: 1px solid #2A1B3D;
+    background-color: #2DFEBC;
+    color: #12121A;
+}
 
 
 /*-------------------------------------------------------------------------------
@@ -80,8 +114,7 @@ COMPONENTS
 
     font: 400 1.125rem "Fira Sans", sans-serif;
 
-    border-right: #2DFEBC solid 5px;
-    border-left:#2DFEBC solid 5px ;
+    border: transparent solid 5px;
 }
 
 .bouton:hover{
@@ -162,8 +195,6 @@ COMPONENTS
     height: 395px;
 
 
-    font: 800 1rem "Montserrat", sans-serif;
-    text-align: center;
 }
 
 
@@ -186,6 +217,18 @@ COMPONENTS
 }
 
 /*--Section produits--*/
+
+.produits{
+    margin: 45px auto;
+}
+
+.nav_section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    gap: 10px;
+}
 
 .conteneur_vetements {
     display: grid;
@@ -238,6 +281,12 @@ COMPONENTS
     margin: 0;
     background-color: #D7D7E8;
     width: 100%;
-    padding: 15px 0;
+    padding: 10px 0;
     text-align: center;
+}
+
+.bouton_produits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

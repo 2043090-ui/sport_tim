@@ -456,3 +456,37 @@ COMPONENTS
     color: #2DFEBC;
     border-color: #2DFEBC;
 }
+
+/*Modale*/
+
+.zoom{
+    height: 100%;
+
+    background-color: #F0F2F7;
+
+    padding: 30px;
+
+}
+
+.modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    padding: 30px;
+
+    z-index: 99999;
+
+    background-color: rgba(18, 18, 26, 0.8);
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.visible{
+    display: flex;
+}

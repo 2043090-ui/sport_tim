@@ -44,15 +44,11 @@ ul {
 }
 
 
-
 h1 {
     font: 700 2.375rem "Montserrat", sans-serif;
 }
 
-h1 .hero {
-    text-align: center;
 
-}
 
 h2 {
     font: 700 1.875rem "Montserrat", sans-serif;
@@ -72,7 +68,24 @@ h5 {
 }
 
 
+/*--Section header--*/
 
+.menu a {
+    color: #F0F2F7;
+
+    font: 400 1.125rem "Fira Sans", sans-serif;
+}
+
+.menu a:hover {
+    color: #2DFEBC;
+}
+
+/*--Section héro--*/
+
+h1 .hero {
+    text-align: center;
+
+}
 
 /*--Call-to-action--*/
 
@@ -106,6 +119,8 @@ h4 {
     background-color: #2DFEBC;
     color: #12121A;
 }
+
+
 
 
 /*--Section Équipe--*/
@@ -142,6 +157,73 @@ h4 {
 .contenu_contact h2 {
     margin: 0;
 }
+
+/*--Section -Liste-des-articles--*/
+
+p span {
+    font-size: 2.25rem;
+}
+
+.card_list_article h3 {
+    color: #12121A;
+}
+
+.card_list_article p {
+    margin: 0;
+}
+
+.card_list_article a {
+    background-color: #D7D7E8;
+    color: #12121A;
+    border: 3px solid #D7D7E8;
+}
+
+.card_list_article a:hover {
+    background-color: #B4B4C0;
+    border-color: #B4B4C0;
+}
+
+/*--Section -Fiche-Article--*/
+.fiche_article_main_infos h2 {
+    margin: 0;
+    color: #12121A;
+}
+
+.fiche_article_main_infos h3 {
+    margin: 10px 0;
+    font-size: 1rem;
+
+}
+
+.fiche_article_main_infos p {
+    font-size: 0.80rem;
+    margin: 0;
+
+    line-height: 25px;
+}
+
+.fiche_article_lien a, .card_recommandation_infos a {
+    font-size: 0.80rem;
+    padding: 5px 20px;
+
+    background-color: transparent;
+    border: 1px solid #2A1B3D;
+
+}
+
+.fiche_article_lien a:hover, .card_recommandation_infos a:hover {
+    border: 1px solid #2A1B3D;
+    background-color: #2DFEBC;
+    color: #12121A;
+}
+
+.card_recommandation_infos h3,
+.card_recommandation_infos a {
+    text-align: left;
+    margin: 0;
+}
+
+
 
 /*--footer--*/
 
@@ -209,19 +291,6 @@ COMPONENTS
 
 }
 
-.menu a {
-    color: #F0F2F7;
-
-    font: 400 1.125rem "Fira Sans", sans-serif;
-}
-
-.menu a:hover {
-    color: #2DFEBC;
-}
-
-
-
-
 
 
 /*--Héro--*/
@@ -245,8 +314,6 @@ COMPONENTS
 
 
 }
-
-
 
 
 /*--Call-to-action--*/
@@ -446,9 +513,7 @@ COMPONENTS
 
 }
 
-p span {
-    font-size: 2.25rem;
-}
+
 
 .conteneur_liste_articles {
     display: grid;
@@ -480,24 +545,7 @@ p span {
     padding: 15px;
 }
 
-.card_list_article h3 {
-    color: #12121A;
-}
 
-.card_list_article p {
-    margin: 0;
-}
-
-.card_list_article a {
-    background-color: #D7D7E8;
-    color: #12121A;
-    border: 3px solid #D7D7E8;
-}
-
-.card_list_article a:hover {
-    background-color: #B4B4C0;
-    border-color: #B4B4C0;
-}
 
 /*--Section -Fiche-Article--*/
 
@@ -528,23 +576,7 @@ p span {
 
 
 
-.fiche_article_main_infos h2 {
-    margin: 0;
-    color: #12121A;
-}
 
-.fiche_article_main_infos h3 {
-    margin: 10px 0;
-    font-size: 1rem;
-
-}
-
-.fiche_article_main_infos p {
-    font-size: 0.80rem;
-    margin: 0;
-
-    line-height: 25px;
-}
 
 .fiche_article_lien {
     display: flex;
@@ -555,20 +587,6 @@ p span {
     margin: 10px 0;
 }
 
-.fiche_article_lien a, .card_recommandation_infos a {
-    font-size: 0.80rem;
-    padding: 5px 20px;
-
-    background-color: transparent;
-    border: 1px solid #2A1B3D;
-
-}
-
-.fiche_article_lien a:hover, .card_recommandation_infos a:hover {
-    border: 1px solid #2A1B3D;
-    background-color: #2DFEBC;
-    color: #12121A;
-}
 
 
 .card_recommandation img {
@@ -607,11 +625,6 @@ p span {
     padding-left: 10px;
 }
 
-.card_recommandation_infos h3,
-.card_recommandation_infos a {
-    text-align: left;
-    margin: 0;
-}
 
 
 

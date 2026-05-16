@@ -139,7 +139,7 @@ h4 {
 
 /*--footer--*/
 
-.footer p{
+.footer p {
     font: 400 0.75rem "Fira Sans", sans-serif;
 }
 
@@ -396,6 +396,102 @@ COMPONENTS
     margin-top: 50px;
 }
 
+/*--Section -Liste-des-articles--*/
+
+
+.main_card {
+    margin: 45px auto;
+
+    padding: 45px;
+
+    background-color: #D7D7E8;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 50px;
+
+    color: #12121A;
+
+}
+
+
+.main_card:hover{
+    background-color: #B4B4C0;
+}
+
+.main_card img {
+
+    width: 50%;
+    height: auto;
+
+
+}
+
+.main_card_infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+}
+
+p span{
+    font-size: 2.25rem;
+}
+
+.conteneur_liste_articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+
+    padding: 45px 0;
+}
+
+.conteneur_liste_articles img {
+    width: 362.8px;
+    height: 268.75px;
+
+
+}
+
+
+.card_list_article {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.liste_articles_infos {
+    padding: 15px;
+}
+
+.card_list_article h3 {
+    color: #12121A;
+}
+
+.card_list_article p {
+    margin: 0;
+}
+
+.card_list_article a {
+    background-color: #D7D7E8;
+    color: #12121A;
+    border: 3px solid #D7D7E8;
+}
+
+.card_list_article a:hover {
+    background-color: #B4B4C0;
+    border-color: #B4B4C0;
+}
+
+
 
 /*--footer--*/
 
@@ -403,13 +499,13 @@ COMPONENTS
     background-color: #2A1B3D;
     color: #F0F2F7;
     height: 167px;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.footer .wrapper{
+.footer .wrapper {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -433,7 +529,7 @@ COMPONENTS
     width: 100%;
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
     border: #F0F2F7 solid 3px;
     border-radius: 100%;
 
@@ -448,18 +544,18 @@ COMPONENTS
 
 }
 
-.media_sociaux a:hover img{
+.media_sociaux a:hover img {
     opacity: 0.7;
 }
 
- a:hover .material-symbols-outlined{
+a:hover .material-symbols-outlined {
     color: #2DFEBC;
     border-color: #2DFEBC;
 }
 
 /*Modale*/
 
-.zoom{
+.zoom {
     height: 100%;
 
     background-color: #F0F2F7;
@@ -468,7 +564,7 @@ COMPONENTS
 
 }
 
-.modal{
+.modal {
     position: fixed;
     left: 0;
     top: 0;
@@ -487,6 +583,6 @@ COMPONENTS
     align-items: center;
 }
 
-.modal.visible{
+.modal.visible {
     display: flex;
 }

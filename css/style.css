@@ -43,9 +43,15 @@ ul {
     list-style: none;
 }
 
+
+
 h1 {
     font: 700 2.375rem "Montserrat", sans-serif;
-    text-align: center;
+}
+
+h1 .hero {
+        text-align: center;
+
 }
 
 h2 {
@@ -436,6 +442,8 @@ COMPONENTS
 
     flex-direction: column;
 
+    text-align: center;
+
 }
 
 p span{
@@ -491,7 +499,76 @@ p span{
     border-color: #B4B4C0;
 }
 
+/*--Section -Fiche-Article--*/
 
+
+.fiche_article_main img{
+    width: 50%;
+    height: auto;
+}
+
+.fiche_article_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 45px;
+}
+
+
+
+.fiche_article_main_infos{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    padding: 45px;
+}
+
+
+
+.fiche_article_main_infos h2{
+    margin: 0;
+    color: #12121A;
+}
+
+.fiche_article_main_infos h3{
+    margin:  10px 0;
+    font-size: 1rem;
+
+}
+
+.fiche_article_main_infos p{
+    font-size: 0.80rem;
+    margin: 0;
+
+    line-height: 25px;
+}
+
+.fiche_article_lien{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    margin: 10px 0;
+    }
+
+    .fiche_article_lien a{
+        font-size: 0.80rem;
+        padding: 5px 20px;
+
+    background-color: transparent;
+    border: 1px solid #2A1B3D;
+
+    }
+
+    .fiche_article_lien a:hover{
+        border: 1px solid #2A1B3D;
+    background-color: #2DFEBC;
+    color: #12121A;
+    }
 
 /*--footer--*/
 
